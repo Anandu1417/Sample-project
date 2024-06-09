@@ -1,0 +1,225 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+.nav{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-right: 0.1rem;
+    background: #131212;
+    z-index: 100000;
+}
+
+.nav h2{
+    font-size: 1.6rem;
+    color: white;
+    margin-left: 4rem;
+}
+
+#items{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#items li{
+    list-style: none;
+    padding: 40px;
+}
+
+#items li a{
+    text-decoration:none;
+    size: 1rem;
+    text-transform: uppercase;
+    color: white;
+}
+
+#items li a:hover{
+    color: #ff5733;
+    cursor: pointer;
+}
+
+.back{
+    background-image: url(images/car.jpg);
+    width: 100%;
+    height: 109vh;
+    background-size: cover;
+    z-index: -1;
+}
+
+.back .overlay{
+    width: 100%;
+    height: 100%;
+    background: #171819;
+    opacity: 0.75;
+}
+
+.mid{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+
+}
+
+.mid p{
+    color: rgba(255, 255, 255, 0.628);
+    font-size: 1.4rem;
+}
+
+.mid h2{
+    color: #fff;
+    font-size: 3rem;
+}
+.mid .button{
+    margin-top: 2rem;
+}
+
+.mid .button a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.mid .button a.simple{
+    color: #fff;
+    font-weight: 500;
+    padding: 1rem 1.6rem;
+}
+
+.mid .button a.simple:hover{
+    color:#ff5733 ;
+}
+
+.mid .button a.border{
+    color: #ff5733;
+    border: 1px solid #ff5733;
+    font-weight: 500;
+    padding: 1rem 1.6rem;
+    border-radius: 3px;
+}
+
+.mid .button a.border:hover{
+    background: white;
+    border: #fff;
+}
+
+.details{
+padding:4rem;
+background: #272222;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+}
+
+.details .about {
+width: 100%;
+}
+
+.details .img{
+width: 100%;
+}
+.details .img img{
+    width: 80%;
+    height: 30%;
+    object-fit: cover;
+    float: right;
+    border-radius: 10px;
+}
+
+
+.details .about h3{
+    color: #fff;
+    font-size: 1.8rem;
+    padding-bottom: 1.1rem;
+}
+
+.details .about h4{
+    color: #fff;
+    font-size: 1.4rem;
+    padding-top: 0.9rem;
+    padding-top: 0.9rem;
+}
+
+.details .about p{
+    color: #ffffffc1;
+    font-size: 1rem;
+}
+
+.details .about h4.bullet{
+    color: #ff5733;
+ 
+}
+
+.details .about p.bullet{
+    color: #ff5733;
+ 
+}
+
+.bg{
+    background-image: url(images/hd.jpg);
+    width: 100%;
+    height: 109vh;
+    background-size: cover;
+    z-index: -1;
+}
+
+.bg .over{
+    width: 100%;
+    height: 100%;
+    background: #171819;
+    opacity: 0.9;
+}
+
+.container{
+    justify-content: left;
+    margin: auto;
+
+}
+
+.container h3{
+    font-size: 1.89rem;
+    color: #fff;
+    width: 350px;
+}
+
+.container .form-group{
+    font-size: 1.4rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#name{
+width: 350px;
+padding: 1rem ;
+}
+
+#modelYear{
+    width: 350px; 
+    padding: 1rem ;
+}
+
+#carBrand{
+    width: 350px; 
+    padding: 1rem ;
+}
+#review{
+    width: 350px;
+}
+
+.container .btn{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+
+}
